@@ -1,505 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="images/title-img.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Font-Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--  Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!-- Custom css -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>PhotoX</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Photography</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/css/lightgallery.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.3.2/js/lightgallery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Header starts  -->
-    <header>
-        <!--  Navbar Starts -->
-        <nav class="navbar navbar-expand-lg fixed-top nav-menu">
-            <a href="#" class="navbar-brand text-light text-uppercase">
-                <span class="h2 font-weight-bold">photo</span><span class="h1">X</span>
-            </a>
-            <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <div class="bg-light line1"></div>
-                <div class="bg-light line2"></div>
-                <div class="bg-light line3"></div>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold m-2 menu-item" id="myNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item nav-active">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item">Collection</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item">Gallery</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item">Customer</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link m-2 menu-item">Contact</a></li>
-                </ul>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        <!-- Navbar ends -->
-        <!-- banner starts  -->
-        <div class="text-light text-md-right text-center banner">
-            <h1 class="display-4 banner-heading">Welcome to <span class="text-uppercase">Daxing</span><span class="display-3"> Home</span></h1>
-            <p class="lead banner-par">I am a lucky dog.</p>
-        </div>
-        <!--  banner ends -->
-    </header>
-    <!--  Header ends -->
-    <!-- Mission -->
-    <section class="p-5 mission">
-        <div class="container-fluid">
-            <!--   title -->
-            <div class="row text-white text-center">
-                <div class="col m-4">
-                    <h1 class="display-4 mb-4">Our Mission</h1>
-                    <div class="underline mb-4"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-            </div>
-            <!-- title ends -->
-            <div class="row my-5">
-                <div class="col-md-4 text-center">
-                    <i class="fas fa-cogs fa-5x text-danger mb-4"></i>
-                    <h1 class="text-white mb-3">Creativity</h1>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                </div>
-                <div class="col-md-4 text-center"> <i class="far fa-thumbs-up fa-5x text-danger mb-4"></i>
-                    <h1 class="text-white mb-3">Quality</h1>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                </div>
-                <div class="col-md-4 text-center"> <i class="far fa-handshake fa-5x text-danger mb-4"></i>
-                    <h1 class="text-white mb-3">Experience</h1>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                </div>
+        <div class="banner-cont" id="Home">
+            <img src="./images/bg.webp">
+            <h1 class="display-3 banner-heading">CHARLOTTE McCOY</h1>
+            <h3 class="banner-heading">____WEDDING PHOTOGRAPHY____</h3>
+            <div class="social-contact">
+                <ul>
+                    <li><i id="facebook" class="fa fa-facebook"></i></li>
+                    <li><i id="twitter" class="fa fa-twitter"></i></li>
+                    <li><i id="pintrest" class="fa fa-pinterest-p"></i></li>
+                    <li><i id="instagram" class="fa fa-instagram"></i></li>
+                </ul>
             </div>
         </div>
-        <div class="container">
+        <div class="container" id="About">
             <div class="row align-items-center">
-                <div class="col-lg-5 text-center">
-                    <img src="images/camera.png" width="350" class="img-fluid camera-img">
+                <div class="col-6">
+                    <img class="img-responsive photographer" src="images/photographer.webp">
                 </div>
-                <div class="col-lg-7 text-white text-lg-right text-center mission-text">
-                    <h1>We know what we do</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
+                <div class="col-6">
+                    <h3 class="display-5">About</h3>
+                    <p>
+                        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text”
+                        or
+                        double click me to add your own content and make changes to the font. Feel free to drag and drop
+                        me
+                        anywhere you like on your page. I’m a great place for you to tell a story and let your users
+                        know a
+                        little more about you.
+                    </p>
+                    <p>
+                        This is a great space to write long text about your company and your services. You can use this
+                        space to go into a little more detail about your company.
+                    </p>
+                    <p>
+                        Talk about your team and what services you provide. Tell your visitors the story of how you came
+                        up
+                        with the idea for your business and what makes you different from your competitors. Make your
+                        company stand out and show your visitors who you are.
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Mission Ends-->
-    <!-- collection-->
-    <section class="bg-secondary py-4">
-        <div class="container-fluid">
-            <!--   title -->
-            <div class="row text-white text-center">
-                <div class="col m-4">
-                    <h1 class="display-4 mb-4">Collection</h1>
-                    <div class="underline mb-4"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-            </div>
-            <!-- title ends -->
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/nature.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">nature photography</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/wedding.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">wedding photography</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/party.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">party photography</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/business.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">business photography</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/fashion.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Fashion photography</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 my-5">
-                    <div class="card border-0 card-shadow">
-                        <img src="images/family.jpeg" class="card-img">
-                        <div class="card-img-overlay">
-                            <h5 class="text-white text-uppercase font-weight-bold p-2 heading">Family photography</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!-- collection ends -->
-    <!-- Gallery starts -->
-    <section class="py-5">
-        <div class="container-fluid">
-            <!--   title -->
-            <div class="row text-muted text-center">
-                <div class="col m-4">
-                    <h1 class="display-4 mb-4">Gallery</h1>
-                    <div class="underline-dark mb-4"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-            </div>
-            <!-- title ends -->
-            <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
-                <li class="list-inline-item gallery-list-item active-item" data-filter="all">All <span class="mx-md-5 mx-3  text-muted">/</span> </li>
-                <li class="list-inline-item gallery-list-item" data-filter="new">New<span class="mx-md-5  mx-3 text-muted">/</span> </li>
-                <li class="list-inline-item gallery-list-item" data-filter="free">Free<span class="mx-md-5  mx-3 text-muted">/</span> </li>
-                <li class="list-inline-item gallery-list-item" data-filter="pro">Pro </li>
-            </ul>
-            <div class="container-fluid">
-                <div class="d-flex flex-wrap justify-content-center">
-                    <div class="filter pro"><img class="img-responsive" src="images/img1.jpeg" width="300"></div>
-                    <div class="filter new"><img src="images/img2.jpeg" width="300"></div>
-                    <div class="filter new"><img src="images/img3.jpeg" width="300"></div>
-                    <div class="filter pro"><img src="images/img4.jpeg" width="300"></div>
-                    <div class="filter new"><img src="images/img5.jpeg" width="300"></div>
-                    <div class="filter free"><img src="images/img6.jpeg" width="300"></div>
-                    <div class="filter free"><img src="images/img7.jpeg" width="300"></div>
-                    <div class="filter free"><img src="images/img8.jpeg" width="300"></div>
-                    <div class="filter free"><img src="images/img9.jpeg" width="300"></div>
-                    <div class="filter free"><img src="images/img10.jpeg" width="300"></div>
-                    <div class="filter pro"><img src="images/img11.jpeg" width="300"></div>
-                    <div class="filter pro"><img src="images/img12.jpeg" width="300"></div>
-                    <div class="filter pro"><img src="images/img13.jpeg" width="300"></div>
-                    <div class="filter pro"><img src="images/img14.jpeg" width="300"></div>
-                    <div class="filter new"><img src="images/img15.jpeg" width="300"></div>
-                    <div class="filter new"><img src="images/img16.jpeg" width="300"></div>
-                </div>
-            </div>
-    </section>
-    <!-- gallery ends -->
-	<div class="demo-gallery" id="Portfolio">
+        <div class="demo-gallery" id="Portfolio">
             <h2 class="display-5">Portfolio</h2>
             <ul id="lightgallery" class="list-unstyled row">
-                <li class="col-xs-6 col-sm-4 col-md-2 col-lg-3"  data-responsive="images/1.jfif" data-src="images/1.jfif"
+                <!--<li class="col-xs-6 col-sm-4 col-md-2 col-lg-3"  data-responsive="images/1.jfif" data-src="images/1.jfif"
                     data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
                     <a href="">
                         <img class="img-responsive" src="images/1.jpg">
                     </a>
-                </li> 
+                </li> -->
             </ul>
         </div>
-	
-    <!-- Customers -->
-    <section class="p-5 customers">
-        <div class="container-fluid">
-            <!--   title -->
-            <div class="row text-white text-center">
-                <div class="col m-4">
-                    <h1 class="display-4 mb-4">Happy Customers</h1>
-                    <div class="underline mb-4"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-            </div>
-            <!-- title ends -->
-            <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <div class="carousel slide" data-ride="carousel" id="customer-carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#customer-carousel" data-slide-to="1"></li>
-                            <li data-target="#customer-carousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active text-center">
-                                <img src="images/customer1.jpeg" class="img-fluid rounded-circle m-5" width="150">
-                                <blockquote class="blockquote text-white">
-                                    <p mb-5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</p>
-                                </blockquote>
-                                <h5 class="text-light text-uppercase font-weight-bold mb-3">Alice</h5>
-                                <ul class="list-inline mb-5">
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="carousel-item text-center">
-                                <img src="images/customer2.jpeg" class="img-fluid rounded-circle m-5" width="150">
-                                <blockquote class="blockquote text-white">
-                                    <p mb-5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</p>
-                                </blockquote>
-                                <h5 class="text-light text-uppercase font-weight-bold mb-3">Bob</h5>
-                                <ul class="list-inline mb-5">
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="carousel-item text-center">
-                                <img src="images/customer3.jpeg" class="img-fluid rounded-circle m-5" width="150">
-                                <blockquote class="blockquote text-white">
-                                    <p mb-5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.</p>
-                                </blockquote>
-                                <h5 class="text-light text-uppercase font-weight-bold mb-3">Monica</h5>
-                                <ul class="list-inline mb-5">
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                    <li class="list-inline-item">
-                                    <li class="fas fa-star text-warning"></li>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="info-cont">
+            <h1 class="display-2">
+                "Capturing the moments of today that will wow your heart tomorrow"
+            </h1>
         </div>
-    </section>
-    <!-- Customers Ends -->
-    <!-- pricing -->
-    <section class="bg-light text-center p-5">
-        <div class="container-fluid">
-            <!--   title -->
-            <div class="row text-muted text-center">
-                <div class="col m-4">
-                    <h1 class="display-4 mb-4">Join Us</h1>
-                    <div class="underline-dark mb-4"></div>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                </div>
-            </div>
-            <!-- title ends -->
+        <div class="container" id="Contact">
             <div class="row align-items-center">
-                <div class="col-lg-4">
-                    <div class="card card-1 text-light py-4 my-4 mx-auto">
-                        <div class="card-body">
-                            <h5 class="text-uppercase font-weight-bold mb-5">Monthly Membership</h5>
-                            <h1 class="display-4"><i class="fas fa-rupee-sign"></i>150</h1>
-                            <ul class="list-unstyled">
-                                <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-                                <li class="font-weight-bold py-3 card-list-item">After Effects</li>
-                                <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
-                                <li class="font-weight-bold py-3 card-list-item border-0">Video Montage</li>
-                            </ul>
-                            <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">Sign-Up!</a>
+                <div class="col-6 contact">
+                    <h3 class="display-5">Let's Talk</h3>
+                    <p>500 Terry Francois St.</p>
+                    <p>San Francisco, CA 94158</p>
+                    <p>Tel: 123-456-7890</p>
+                    <a href="mailto:info@mysite.com">info@mysite.com</a>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-2 text-light py-4 my-4 mx-auto">
-                        <div class="card-body">
-                            <h5 class="text-uppercase font-weight-bold mb-5">Unlimited Access</h5>
-                            <h1 class="display-4"><i class="fas fa-rupee-sign"></i>1750</h1>
-                            <ul class="list-unstyled">
-                                <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-                                <li class="font-weight-bold py-3 card-list-item">After Effects</li>
-                                <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
-                                <li class="font-weight-bold py-3 card-list-item">Video Montage</li>
-                                <li class="font-weight-bold py-3 card-list-item border-0">Clip Making</li>
-                            </ul>
-                            <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">Sign-Up!</a>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1">
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card card-3 text-light py-4 my-4 mx-auto">
-                        <div class="card-body">
-                            <h5 class="text-uppercase font-weight-bold mb-5">Annual Membership</h5>
-                            <h1 class="display-4"><i class="fas fa-rupee-sign"></i>1500</h1>
-                            <ul class="list-unstyled">
-                                <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
-                                <li class="font-weight-bold py-3 card-list-item">After Effects</li>
-                                <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
-                                <li class="font-weight-bold py-3 card-list-item border-0">Video Montage</li>
-                            </ul>
-                            <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">Sign-Up!</a>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="my-5">
-                <h2 class="text-muted mb-4">Thanks for being with us!!</h2>
-                <i class="fas fa-coffee fa-3x"></i>
-            </div>
-        </div>
-    </section>
-    <!-- pricing ends -->
-    <!-- contacts -->
-    <section class="contact p-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-5 pb-4">
-                    <h3 class="display-4 mb-5 text-white">Get in Touch</h3>
-                    <form class="contact-form">
-                        <div class="form-group py-4">
-                            <input type="text" class="form-control my-2 p-2 input" placeholder="Name">
-                            <label for="name" class="label">Name</label>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <div class="form-group py-4">
-                            <input type="email" class="form-control my-2 p-2 input" placeholder="Email Address">
-                            <label for="email" class="label">Email</label>
-                        </div>
-                        <div class="form-group py-4 my-4">
-                            <input type="checkbox" checked>
-                            <label for="check" class="text-white">Send Announcements</label>
-                        </div>
-                        <button type="submit" class="btn btn-block p-2 font-weight-bold text-uppercase submit-button">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contacts ends -->
-    <!-- footer -->
-    <footer class="bg-dark px-5">
-        <div class="container-fluid">
-            <div class="row text-light py-4">
-                <div class="col-lg-4 col-sm-6">
-                    <h5 class="pb-3">About Us</h5>
-                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h5 class="pb-3">Visit Us</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="footer-link">Home</a></li>
-                        <li><a href="#" class="footer-link">Mission</a></li>
-                        <li><a href="#" class="footer-link">Collection</a></li>
-                        <li><a href="#" class="footer-link">Gallery</a></li>
-                        <li><a href="#" class="footer-link">Customer</a></li>
-                        <li><a href="#" class="footer-link">Pricing</a></li>
-                        <li><a href="#" class="footer-link">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-sm-6">
-                    <h5 class="pb-3">Need Help</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class="footer-link text-uppercase">Customer Service</a></li>
-                        <li><a href="#" class="footer-link text-uppercase">Online Chat</a></li>
-                        <li><a href="#" class="footer-link text-uppercase">Support</a></li>
-                        <li><a href="#" class="text-info">photox@gmail.com</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <h5 class="pb-3">Stay Connected</h5>
-                    <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <form class="mb-3 ">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Email Address">
-                            <div class="input-group-append">
-                                <button type="button" class="btn btn-danger text-white text-uppercase font-weight-bold">Sign Up</button>
-                            </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-danger"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-twitter fa-2x text-info"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-danger"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-youtube fa-2x text-danger"></i></li>
-                    </ul>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col text-center text-light border-top pt-3">
-                    <p>&copy; 2018-19 Copyright, All Rights Reserved</p>
+                <div class="col-6">
+                    <img class="img-responsive" src="images/last.webp">
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- end of footer -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- Custom js -->
-    <script type="text/javascript" src="js/script.js"></script>
+    </div>
+    <script>
+        $(document).ready(function () {
+            var arrayList = [
+                { url: 'images/1.jpg', caption: 'caption about the image' },
+                { url: 'images/2.jpg', caption: 'caption about the image' },
+                { url: 'images/3.jpg', caption: 'caption about the image' },
+                { url: 'images/4.jpg', caption: 'caption about the image' },
+                { url: 'images/5.jpg', caption: 'caption about the image' },
+                { url: 'images/6.jpg', caption: 'caption about the image' },
+                { url: 'images/7.jpg', caption: 'caption about the image' },
+                { url: 'images/8.jpg', caption: 'caption about the image' },
+                { url: 'images/9.jpg', caption: 'caption about the image' },
+                { url: 'images/10.jpeg', caption: 'caption about the image' },
+                { url: 'images/11.jpg', caption: 'caption about the image' },
+                { url: 'images/12.jpg', caption: 'caption about the image' }
+            ];
+            $.each(arrayList, function (index, value) {
+                $("#lightgallery").append('<li class="col-xs-6 col-sm-4 col-md-2 col-lg-4"  data-responsive="' + value.url + '" data-src="' + value.url + '" data-sub-html="<h1>' + value.caption + '</h1>">' +
+                    '<a href=""><img class="img-responsive" src="' + value.url + '"></a></li>');
+            });
+            $('#lightgallery').lightGallery();
+        });
+    </script>
 </body>
 
 </html>
